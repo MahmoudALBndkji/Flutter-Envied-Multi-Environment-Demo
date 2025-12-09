@@ -1,5 +1,15 @@
 # 🔐 Environment Variables & Multi‑Environment Setup
 
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/4ba4ed14-b2ad-442b-8e19-c25902e79be1"
+    alt="poster"
+    width="600"
+    style="border-radius: 15px;"
+  />
+</p>
+
+
 This README provides a full guide on how to use environment variables
 securely in a Flutter project, including `.env` examples, structure, Git
 rules, and recommended practices.
@@ -50,9 +60,8 @@ Vault, encrypted channels).
     │   │   ├── env_staging.dart
     │   │   └── env_prod.dart
     │   │
-    │   ├── screens/
-    │   │   └── envied_demo_screen.dart
-    │   │
+    │   │── envied_demo_screen.dart
+    │   │── init_env.dart
     │   └── main.dart
     │
     ├── pubspec.yaml
